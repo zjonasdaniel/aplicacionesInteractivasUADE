@@ -1,0 +1,120 @@
+.Carrousel {
+  height: 380px;
+  overflow: hidden;
+  width: 100%;
+}
+.CarrouselItem1 {
+  height: 380px;
+  width: 100%;
+  background-image: url("./BackgroundIndex1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.CarrouselItem1TextCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 60px;
+  width: 40%;
+  height: 50%;
+}
+.CarrouselItem1Text {
+  background-color: rgba(255, 255, 255, 0.644);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 15px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 15px -2px rgba(0, 0, 0, 0.75);
+}
+.CarrouselItem1TextTitle {
+  font-family: "Work Sans";
+  font-size: 2.5rem;
+  line-height: 40px;
+  font-weight: bold;
+}
+.CarrouselItem1TextInfo {
+  font-family: "Open Sans";
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+}
+.CarrouselItem2 {
+  height: 380px;
+  width: 100%;
+  background-image: url("./BackgroundIndex2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: aqua;
+}
+.CarrouselItem2TextCont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 60px;
+}
+.CarrouselItem2Text {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.644);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 15px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 15px -2px rgba(0, 0, 0, 0.75);
+}
+.CarrouselItem2TextTitle {
+  font-family: "Work Sans";
+  font-size: 2.5rem;
+  line-height: 40px;
+  font-weight: bold;
+}
+.CarrouselItem2Button {
+    font-family: "Open Sans";
+    font-weight: bold;    
+    color: black;
+    background-color: #93C01D;
+    border: white 1px solid;
+    padding: 4px;
+    font-size: 1.3rem;
+    width: fit-content;
+    border-radius: 5px;
+}
+/* .Carrousel{
+    height: 360px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.CarrouselImg{
+    width: 200%;
+    transition: 1s;
+    position: absolute;
+}
+.Next{
+    transform: translate(-50%);
+}
+.Previous{
+    transform: translate(0%);
+}
+.CarrouselImg1,.CarrouselImg2{
+    min-height: 360px;
+    width: 50%;
+}
+.CarrouselArrow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.CarrouselArrow1 , .CarrouselArrow2{
+    width: 30px;
+    cursor: pointer;
+}
+.CarrouselArrow2{
+    transform: rotate(180deg);
+} */

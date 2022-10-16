@@ -1,0 +1,79 @@
+.Navbar1 {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 1);  */
+  border: 1px black solid;
+  
+}
+.Navbar2 {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+.Navbar2Logo {
+  display: flex;
+  justify-content: left;
+  font-size: large;
+  align-items: center;
+  width: 20%;
+}
+.Navbar2Logo1 {
+  font-weight: 1200;
+  color: white;
+  background-color: #2764a5;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 2px;
+}
+.Navbar2Search {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.Navbar2Search1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar2Search2 {
+  width: 70%;
+  color: rgba(0, 0, 0, 0.534);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 1px black;
+  margin-left: 10px;
+}
+.Navbar2Log {
+  width: 20%;
+  display: flex;
+  font-size: large;
+  justify-content: flex-end;
+}
+.Navbar2Log1 {
+  border: solid 1px black;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.Navbar2Log2 {
+  border: solid 1px black;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+}
