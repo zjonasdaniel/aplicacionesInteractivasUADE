@@ -1,30 +1,37 @@
 import "./ItemListConteiner.css";
+import "../mockData"
 import Data from "../mockData";
+import Item from "../Item/Item";
 
 const ItemListConteiner = () => {
-    
+    console.log(Data)
     return (
     <div className="ILCpadre">
       <div className="ILCH2P">
         <h2 className="ILCH2">Una amplia seleccion de cursos</h2>
-        <p className="ILCP">Elige entre mas de 10.000 cursos de video en linea con nuevo contenido cada mes</p>
+        <p className="ILCP">Elige entre mas de 10 cursos de video en linea con nuevo contenido cada mes</p>
       </div>
       <div className="ILCFilterSlider">
         <div className="ILCFilter">
-          <h5 > {Data.Categories[0].Name} </h5>
-          <h5 >JavaScript</h5>
-          <h5 >ReactJs</h5>
-          <h5 >SQLserver</h5>
-          <h5 >Excel</h5>
-          <h5 >Ingles</h5>
-          <h5 >Python</h5>
+          <p>Todos</p>
+          <p>Programacion</p>
+          <p>Idiomas</p>
+          <p>PackOffice</p>
+          <p>Musica</p>
+          <p>CienciasBasicas</p>
         </div>
-        <div className="ILCSlider">
-          <div className="ILCSliderH3P">
-            <h3 className="ILCSliderH3"></h3>
-            <h3 className="ILCSliderP"></h3>
+        <div className="ILCItemsConteiner">
+          <div className="ILCItems">
+            {Data.map((product)=>(
+              <Item 
+                key={product.Id}
+                title={product.Title}
+                price={product.Price}
+                image={product.Image}
+                id={product.Id} 
+              />
+            ))}
           </div>
-          <div className="ILCSliderContents"></div>
         </div>
       </div>
     </div>

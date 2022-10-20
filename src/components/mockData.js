@@ -1,12 +1,12 @@
-const Data= {
-    Items:[{
+const Data=[
+    {
         "Title":"Aprende Desarrollo Web Desde 0",
         "Tutor":"Marcelo Docampo",
         "Starts":4,
         "Price":19,
         "Image":"https://webescuela.com/wp-content/uploads/2020/08/que-hace-un-desarrollador-web.png",
-        "id":1,
-        "Category":"Desarollo web",
+        "Id":1,
+        "Category":"Programacion",
         "Modality":"Virtual",
         "Description":"En este curso aprenderas programacion web desde 0"
     },{
@@ -15,8 +15,8 @@ const Data= {
         "Starts":4,
         "Price":9,
         "Image":"https://i.blogs.es/435d63/full_stack/450_1000.webp",
-        "id":2,
-        "Category":"Desarollo web",
+        "Id":2,
+        "Category":"Programacion",
         "Modality":"Virtual",
         "Description":"En este curso aprenderas programacion web desde 0"
     },{
@@ -25,8 +25,8 @@ const Data= {
         "Starts":4,
         "Price":16,
         "Image":"https://i.ytimg.com/vi/ZLOxEUVSEbg/maxresdefault.jpg",
-        "id":3,
-        "Category":"Desarollo web",
+        "Id":3,
+        "Category":"Programacion",
         "Modality":"Virtual",
         "Description":"En este curso aprenderas programacion web desde 0"
     },{
@@ -35,8 +35,8 @@ const Data= {
         "Starts":4,
         "Price":29,
         "Image":"https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2022/02/%C2%BFBuscas-cursos-en-espan%CC%83ol-para-aprender-a-programar-Te-compartimos-estas-opciones-gratuitas.jpg",
-        "id":4,
-        "Category":"Desarollo web",
+        "Id":4,
+        "Category":"Programacion",
         "Modality":"Virtual",
         "Description":"En este curso aprenderas programacion web desde 0"
     },{
@@ -45,17 +45,30 @@ const Data= {
         "Starts":4,
         "Price":26,
         "Image":"https://www.adictosaltrabajo.com/wp-content/uploads/2018/05/el_remozado_javascript.imagen.jpg",
-        "id":5,
-        "Category":"Desarollo web",
+        "Id":5,
+        "Category":"Programacion",
         "Modality":"Virtual",
         "Description":"En este curso aprenderas programacion web desde 0"
-    }]
-    ,Categories:[{
-        "id":1,
-        "Name":"DesarrolloWeb",
-        "Title":"Crea sitios web y aplicaciones con el desarrollo web",
-        "Description":"El mundo del desarrollo web es tan amplio como la propia Internet. Gran parte de nuestra vida social y profesional se desarrolla en Internet, lo que ha fomentado la creación de nuevas industrias encaminadas a crear, administrar y depurar los sitios web y las aplicaciones de los que dependemos en cada vez mayor medida."
+    },{
+        "Title":"Ingles Desde 0",
+        "Tutor":"Tutula Microfino",
+        "Starts":4,
+        "Price":21,
+        "Image":"https://www.adictosaltrabajo.com/wp-content/uploads/2018/05/el_remozado_javascript.imagen.jpg",
+        "Id":6,
+        "Category":"Idiomas",
+        "Modality":"Presencial",
+        "Description":"En este curso aprenderas programacion web desde 0"
+    },{
+        "Title":"Programacion con Excel",
+        "Tutor":"Luciana Mirelly",
+        "Starts":4,
+        "Price":39,
+        "Image":"https://www.adictosaltrabajo.com/wp-content/uploads/2018/05/el_remozado_javascript.imagen.jpg",
+        "Id":7,
+        "Category":"PackOffice",
+        "Modality":"Virtual",
+        "Description":"En este curso aprenderas programacion web desde 0"
     }
-    ]
-};
+];
 export default Data;

@@ -8,13 +8,11 @@ const Navbar = () => {
             <div className="Navbar2Logo1">CLASES</div>
             <div className="Navbar2Logo2">Particulares</div>
         </div>
-        <div className="Navbar2Search">
-          <div className="Navbar2Search1">Categories</div>
-          <div className="Navbar2Search2">...Search...</div>
-        </div>
+        
         <div className="Navbar2Log">
-          <div className="Navbar2Log1">Log in</div>
-          <div className="Navbar2Log2">Sign up</div>
+          <div className="Navbar2LogCategories">Explorar</div>
+          <div className="Navbar2Log1">Iniciar sesión</div>
+          <div className="Navbar2Log2">Regístrate</div>
         </div>
       </div>
     </div>

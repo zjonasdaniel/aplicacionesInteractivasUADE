@@ -28,10 +28,16 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-.ILCFilter h5{
+.ILCItemsConteiner{
+    height: 94%;
+    width: 100%;
+    border: #3f3f3f7e 1px solid;
+}
+.ILCFilter p{
     padding-right: 15px;
+    font-weight:600;
     font-size: 1rem;
-    color: #1C1D1F
+    color: #3f3f3f
 }
 .ILCSlider{
     height: 90%;
