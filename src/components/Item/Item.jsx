@@ -1,13 +1,13 @@
 import "./Item.css"
 
-const Item = ({id,title,price,image}) => {
+const Item = ({id,title,price,image,tutor,starts}) => {
   return (
     <div className="ItemConteiner">
-        <div className="ItemImage"></div>
-        <div className="ItemTitle"></div>
-        <div className="ItemTutor"></div>
-        <div className="ItemStars"></div>
-        <div className="ItemPrice"></div>
+        <div className="ItemImage"><img src={image} alt="" /></div>
+        <div className="ItemTitle">{title}</div>
+        <div className="ItemTutor">{tutor}</div>
+        <div className="ItemStars">{starts} ⭐⭐⭐⭐</div>
+        <div className="ItemPrice">{price} US$</div>
     </div>
   )
 }

@@ -54,7 +54,7 @@ const Data=[
         "Tutor":"Tutula Microfino",
         "Starts":4,
         "Price":21,
-        "Image":"https://www.adictosaltrabajo.com/wp-content/uploads/2018/05/el_remozado_javascript.imagen.jpg",
+        "Image":"https://edteam-media.s3.amazonaws.com/courses/original/4feb100b-5d47-4daf-b421-9983c5ecdfa8.png",
         "Id":6,
         "Category":"Idiomas",
         "Modality":"Presencial",
@@ -64,9 +64,29 @@ const Data=[
         "Tutor":"Luciana Mirelly",
         "Starts":4,
         "Price":39,
-        "Image":"https://www.adictosaltrabajo.com/wp-content/uploads/2018/05/el_remozado_javascript.imagen.jpg",
+        "Image":"https://i.imgur.com/EPSS2yq.png",
         "Id":7,
         "Category":"PackOffice",
+        "Modality":"Virtual",
+        "Description":"En este curso aprenderas programacion web desde 0"
+    },{
+        "Title":"Clases de trompeta",
+        "Tutor":"Mirian Cipolilla",
+        "Starts":4,
+        "Price":4,
+        "Image":"https://shinemusicschoolonline.com/wp-content/uploads/2020/05/40.jpg",
+        "Id":8,
+        "Category":"Musica",
+        "Modality":"Virtual",
+        "Description":"En este curso aprenderas programacion web desde 0"
+    },{
+        "Title":"Matematica de secundario",
+        "Tutor":"Alejandro Khorn",
+        "Starts":4,
+        "Price":10,
+        "Image":"https://hotmart.s3.amazonaws.com/product_contents/7644409a-f109-475f-8b36-72de0875113f/27ca8c978ee4b6a1be63501d18a93fcb.jpg",
+        "Id":9,
+        "Category":"CienciasBasicas",
         "Modality":"Virtual",
         "Description":"En este curso aprenderas programacion web desde 0"
     }

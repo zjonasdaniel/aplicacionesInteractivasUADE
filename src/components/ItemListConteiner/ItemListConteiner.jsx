@@ -28,7 +28,9 @@ const ItemListConteiner = () => {
                 title={product.Title}
                 price={product.Price}
                 image={product.Image}
-                id={product.Id} 
+                id={product.Id}
+                tutor={product.Tutor} 
+                starts={product.Starts}
               />
             ))}
           </div>

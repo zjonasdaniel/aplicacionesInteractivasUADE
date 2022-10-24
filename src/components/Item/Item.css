@@ -1,0 +1,33 @@
+.ItemConteiner{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgba(209, 209, 209, 0.541);
+    font-family: "Open Sans";
+  color: rgb(41, 41, 41);
+}
+.ItemImage{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: #CCC;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ItemImage img{
+    width: 100%;
+    height: auto;
+}
+.ItemTitle,.ItemTutor,.ItemStars,.ItemPrice{
+    padding-left: 5px;
+}
+.ItemTitle, .ItemPrice{
+  font-family: "Open Sans";
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+}

@@ -3,18 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     width: 100%;
 }
 .ILCH2P{
+    height: 75px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 90%;
-    height: 11%;
 }
 .ILCFilterSlider{
-    height: 80%;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -23,15 +21,9 @@
 }
 .ILCFilter{
     width: 100%;
-    height: 6%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-}
-.ILCItemsConteiner{
-    height: 94%;
-    width: 100%;
-    border: #3f3f3f7e 1px solid;
 }
 .ILCFilter p{
     padding-right: 15px;
@@ -40,7 +32,27 @@
     color: #3f3f3f
 }
 .ILCSlider{
-    height: 90%;
     width: 100%;
     border: 1px solid grey;
+}
+.ILCItemsConteiner{
+    width: 100%;
+    border: #3f3f3f7e 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ILCItems{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            250px,
+            1fr
+        )
+    );
+    gap: 10px;
+    padding: 10px;
 }
